@@ -33,6 +33,7 @@ export default function FormMusic() {
     }
     const nextRight = () => {
         const item = data[(index + 1) % data.length];
+        setActive((index + 1) % data.length);
         setindex((index + 1) % data.length);
         setData(item);
         setMusic(item.link);
@@ -43,6 +44,7 @@ export default function FormMusic() {
     const nextLeft = () => {
         const item = data[(index + data.length - 1) % data.length];
         setindex((index + data.length - 1) % data.length);
+        setActive((index + data.length - 1) % data.length);
         setData(item);
         setMusic(item.link);
         if (audioRef.current !== null) {
