@@ -104,7 +104,7 @@ export default function FormMusic() {
                             </div>
                             <FaChevronCircleRight className="icon" onClick={nextRight} />
                         </div>
-                        <div className="flex justify-center items-center ml-[20px] my-[30px] text-[24px]">
+                        <div className="flex justify-center items-center ml-[20px] my-[30px] lg:text-[24px]">
                             <IoVolumeHighSharp className="text-[#5a3ec8]" />
                             <input onChange={() => handleChangeVolume(event)} defaultValue={100} min={0} max={100} type="range" className="mx-[10px] lg:w-[10%] h-2 bg-gray-200 rounded-lg" />
                             <div className="text-[#5a3ec8] w-[70px]">
