@@ -16,7 +16,13 @@ export default function DataMussic() {
             name: 'Happiest Year',
             link: '/Happiest Year - Jaymes Young.mp3',
             singer: 'Jaymes Young',
-            img: 'happiest.jpg'
+            img: '/happiest.jpg'
+        },
+        {
+            name: 'Hãy Dừng lại đi em',
+            link: '/HayDungLaiDiEm-DuyManh-15137065.mp3',
+            singer: 'Duy Mạnh',
+            img: '/duymanh.jpg'
         }
     ];
     return data;
