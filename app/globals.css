@@ -2,32 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.top {
+  position: relative;
+  background-image: url('/bg.jpg');
+  border-radius: 20px;
+  padding: 30px;
+  text-shadow: 0px 0px 8px #c77dff;
+  z-index: 3;
+  box-shadow: 0px 0px 20px #c77dff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+img {
+  overflow: hidden;
+  object-fit: cover;
+  border: 3px solid #000;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px #c77dff;
+  backdrop-filter: blur(30px);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.top-opa1 {
+  background-color: #000;
+  opacity: 0.5;
+  backdrop-filter: grayscale(50%) blur(5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.top-opa2 {
+  backdrop-filter: grayscale(50%) blur(5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.top-left {
+  position: relative;
+  z-index: 4;
+
+}
+
+.top__right {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  z-index: 4;
+  text-shadow: 0px 0px 8px #c77dff;
+  opacity: 1 !important;
+}
+
+.trackList {
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, #341e8c 0%, rgba(67, 26, 230, 0) 110%);
+
+}
+
+.bottom {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.bottom_content {
+  position: absolute;
+  background-color: #232034;
+  top: -30px;
+  border-radius: 20px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.icon {
+  cursor: pointer;
+  margin-top: 10px;
+  background: linear-gradient(135deg, rgba(89, 62, 197, 1) 0%, rgba(99, 66, 232, 1) 100%);
+  border-radius: 50%;
+  text-shadow: 0px 0px 8px #c77dff;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  font-size: 60px;
+  background: linear-gradient(135deg, rgb(121, 99, 206) 0%, rgb(134, 106, 242) 100%);
+}
+
+.itemMusic {
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.itemMusic:hover {
+  border-left: 30px solid rgba(89, 62, 197, 1);
+}
+
+.active {
+  border-left: 30px solid rgba(89, 62, 197, 1);
 }
