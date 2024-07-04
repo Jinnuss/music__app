@@ -79,10 +79,10 @@ export default function FormMusic() {
         <>
             <div className="bg-[#1e1c29]">
                 <div className="flex justify-center pt-[30px]">
-                    <div className="top w-[60%] flex justify-center">
+                    <div className="top w-[60%] lg:flex justify-center">
                         <div className="top-opa1"></div>
                         <div className="top-opa2"></div>
-                        <div className="top-left pr-[10%]">
+                        <div className="top-left lg:pr-[10%] sm:mb-[20px]">
                             <img className="w-[300px] h-[300px]" src={dataMusic.img} alt="abc" />
                         </div>
                         <div className="top__right text-[#c77dff] pl-[10%]">
@@ -106,7 +106,7 @@ export default function FormMusic() {
                         </div>
                         <div className="flex justify-center items-center ml-[20px] my-[30px] text-[24px]">
                             <IoVolumeHighSharp className="text-[#5a3ec8]" />
-                            <input onChange={() => handleChangeVolume(event)} defaultValue={100} min={0} max={100} type="range" className="mx-[10px] w-[10%] h-2 bg-gray-200 rounded-lg" />
+                            <input onChange={() => handleChangeVolume(event)} defaultValue={100} min={0} max={100} type="range" className="mx-[10px] lg:w-[10%] h-2 bg-gray-200 rounded-lg" />
                             <div className="text-[#5a3ec8] w-[70px]">
                                 {per} %
                             </div>
@@ -121,8 +121,8 @@ export default function FormMusic() {
                         </div>
                         <div className="listMusic">
                             {data.map((item, index) => (
-                                <div key={index} className={active == index ? "mx-[50px] my-[20px] itemMusic active" : "mx-[50px] my-[20px] itemMusic"} onClick={() => handleClickMusic(data[index], index)}>
-                                    <div className="text-[#c77dff] text-[20px]">{item.name} {item.singer}</div>
+                                <div key={index} className={active == index ? "lg:mx-[50px] my-[20px] itemMusic active" : "lg:mx-[50px] my-[20px] itemMusic"} onClick={() => handleClickMusic(data[index], index)}>
+                                    <div className="text-[#c77dff] lg:text-[20px]">{item.name} {item.singer}</div>
                                 </div>
                             ))}
                         </div>
