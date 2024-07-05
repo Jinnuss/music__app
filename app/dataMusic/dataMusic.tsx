@@ -56,7 +56,7 @@ export default function DataMussic() {
         },
         {
             name: 'Ánh sao và bầu trời',
-            link: '/Aanhsaovabautroi.m4a',
+            link: '/anhsaovabautroi.m4a',
             singer: 'Ngô Quyền Linh',
             img: '/anhsao1.jpg'
         },
