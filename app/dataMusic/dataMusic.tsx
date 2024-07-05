@@ -1,6 +1,24 @@
 export default function DataMussic() {
     const data = [
         {
+            name: 'Fake love',
+            link: '/fakelove.mp3',
+            singer: 'BTS',
+            img: '/bts.jpg'
+        },
+        {
+            name: 'Fire',
+            link: '/fire.mp3',
+            singer: 'BTS',
+            img: '/bts.jpg'
+        },
+        {
+            name: 'Saveme',
+            link: '/saveme.mp3',
+            singer: 'BTS',
+            img: '/bts.jpg'
+        },
+        {
             name: 'Believer',
             link: '/Believer-ImagineDragons-5564250.mp3',
             singer: 'ImagineDragons',
