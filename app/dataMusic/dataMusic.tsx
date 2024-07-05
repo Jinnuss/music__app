@@ -1,6 +1,18 @@
 export default function DataMussic() {
     const data = [
         {
+            name: 'Believer',
+            link: '/Believer-ImagineDragons-5564250.mp3',
+            singer: 'ImagineDragons',
+            img: '/believer.jpg'
+        },
+        {
+            name: 'Bones',
+            link: '/Bones - Imagine Dragons.mp3',
+            singer: 'ImagineDragons',
+            img: '/Bones.jpg'
+        },
+        {
             name: 'Fake love',
             link: '/fakelove.mp3',
             singer: 'BTS',
@@ -17,18 +29,6 @@ export default function DataMussic() {
             link: '/saveme.mp3',
             singer: 'BTS',
             img: '/bts.jpg'
-        },
-        {
-            name: 'Believer',
-            link: '/Believer-ImagineDragons-5564250.mp3',
-            singer: 'ImagineDragons',
-            img: '/believer.jpg'
-        },
-        {
-            name: 'Bones',
-            link: '/Bones - Imagine Dragons.mp3',
-            singer: 'ImagineDragons',
-            img: '/Bones.jpg'
         },
         {
             name: 'Happiest Year',
