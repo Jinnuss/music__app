@@ -16,7 +16,7 @@ export default function FormMusic() {
     const [per, setPer] = useState(100);
     const [play, setPlay] = useState(false);
     const [dataMusic, setData] = useState(data[0]);
-    const [currentMusic, setMusic] = useState('/Believer-ImagineDragons-5564250.mp3');
+    const [currentMusic, setMusic] = useState(data[0].link);
     const [index, setindex] = useState(0);
     const [dem, setdem] = useState(0);
     const handleClickPlay = () => {
