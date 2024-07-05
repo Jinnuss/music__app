@@ -55,12 +55,6 @@ export default function DataMussic() {
             img: '/gapnhaubennhau.jpg'
         },
         {
-            name: 'Ánh sao và bầu trời',
-            link: '/anhsaovabautroi.m4a',
-            singer: 'Ngô Quyền Linh',
-            img: '/anhsao1.jpg'
-        },
-        {
             name: 'Tốt nhất nên cô đơn',
             link: '/Totnhatnencodon.m4a',
             singer: 'Lâm Tuấn',
@@ -95,6 +89,12 @@ export default function DataMussic() {
             link: '/lothuongmotnguoi.m4a',
             singer: 'Nguyễn Đình Vũ',
             img: '/lothuongmotnguoi.jpg'
+        },
+        {
+            name: 'Ánh sao và bầu trời',
+            link: '/anhsaovabautroi.m4a',
+            singer: 'Ngô Quyền Linh',
+            img: '/anhsao1.jpg'
         },
         {
             name: 'Là ai từ bỏ là ai vô tình',
