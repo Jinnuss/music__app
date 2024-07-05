@@ -107,7 +107,7 @@ export default function FormMusic() {
                             <input defaultValue={0} min={0} max={100} type="range" className="w-[60%] h-2 bg-gray-200 rounded-lg" />
                         </div>
                         <div className="flex justify-center mt-[10px] text-[50px] h-[50px]">
-                            <FaChevronCircleLeft className="icon" onClick={nextLeft} />
+                            <FaChevronCircleLeft className="icon shake shake-slow" onClick={nextLeft} />
                             <div className="mx-[20px]" onClick={() => handleClickPlay()}>
                                 {play ? (<FaPauseCircle className="icon" />) : (<FaPlayCircle className="icon" />)}
                             </div>
@@ -126,7 +126,7 @@ export default function FormMusic() {
                 <div className="listMusic flex justify-center w-[100%]">
                     <div className="content py-[40px] sm:w-[95%] lg:w-[60%]">
                         <div className="trackList flex w-[100%] items-center">
-                            <MdOutlineQueueMusic /> Tracks list
+                            <MdOutlineQueueMusic /> Danh sách bài hát
                         </div>
                         <div className="listMusic">
                             {data.map((item, index) => (
