@@ -18,6 +18,7 @@ export default function FormMusic() {
     const [dataMusic, setData] = useState(data[0]);
     const [currentMusic, setMusic] = useState('/Believer-ImagineDragons-5564250.mp3');
     const [index, setindex] = useState(0);
+    const [dem, setdem] = useState(0);
     const handleClickPlay = () => {
         if (play) {
             if (audioRef.current !== null) {
@@ -72,10 +73,16 @@ export default function FormMusic() {
         }
     }
     useEffect(() => {
-        if (audioRef.current !== null && audioRef.current.currentTime == audioRef.current.duration) {
-            nextRight();
+        if (audioRef.current !== null) {
+            let currentTime = audioRef.current.currentTime;
+            const duration = audioRef.current.duration;
+            if (currentTime == duration) {
+                nextRight();
+            }
+            setdem(dem + 1);
+
         }
-    }, [index]);
+    }, [dem]);
 
     return (
         <>
@@ -87,10 +94,10 @@ export default function FormMusic() {
                         <div className="top-left lg:pr-[10%] sm:mb-[20px]">
                             <img className="w-[300px] h-[300px]" src={dataMusic.img} alt="abc" />
                         </div>
-                        <div className="top__right text-[#c77dff] pl-[10%]">
-                            <div>Now playing</div>
-                            <div>{dataMusic.name}</div>
-                            <div>{dataMusic.singer}</div>
+                        <div className="top__right text-[#c77dff] pl-[10%] text-center">
+                            <div className="my-[40px]">Now playing</div>
+                            <div className="mb-[40px]">{dataMusic.name}</div>
+                            <div className="mb-[40px]">{dataMusic.singer}</div>
                         </div>
                     </div>
                 </div>
@@ -124,7 +131,10 @@ export default function FormMusic() {
                         <div className="listMusic">
                             {data.map((item, index) => (
                                 <div key={index} className={active == index ? "lg:mx-[50px] my-[20px] itemMusic active" : "lg:mx-[50px] my-[20px] itemMusic"} onClick={() => handleClickMusic(data[index], index)}>
-                                    <div className="text-[#c77dff] lg:text-[20px]">{item.name} {item.singer}</div>
+                                    <div className="text-[#c77dff] lg:text-[20px] flex justify-between">
+                                        <div className="">{item.name}</div>
+                                        <div className="font-bold">{item.singer}</div>
+                                    </div>
                                 </div>
                             ))}
                         </div>

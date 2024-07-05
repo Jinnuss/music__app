@@ -23,6 +23,18 @@ export default function DataMussic() {
             link: '/HayDungLaiDiEm-DuyManh-15137065.mp3',
             singer: 'Duy Mạnh',
             img: '/duymanh.jpg'
+        },
+        {
+            name: 'Anh thôi nhân nhượng',
+            link: '/anhthoinhannhuong.mp3',
+            singer: 'Kiều Chi',
+            img: '/kieuchi.jpg'
+        },
+        {
+            name: 'Hứa đợi nhưng chẳng tới',
+            link: '/HuaDoiNhungChangToiCover-KieuChi-15016022.mp3',
+            singer: 'Kiều Chi',
+            img: '/kieuchi.jpg'
         }
     ];
     return data;
