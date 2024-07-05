@@ -88,7 +88,7 @@ export default function FormMusic() {
         <>
             <div className="bg-[#1e1c29]">
                 <div className="flex justify-center pt-[30px]">
-                    <div className="top w-[60%] lg:flex justify-center">
+                    <div className="top sm:w-[90%] lg:w-[60%] lg:flex justify-center">
                         <div className="top-opa1"></div>
                         <div className="top-opa2"></div>
                         <div className="top-left lg:pr-[10%] sm:mb-[20px]">
@@ -102,7 +102,7 @@ export default function FormMusic() {
                     </div>
                 </div>
                 <div className="bottom flex justify-center">
-                    <div className="bottom_content w-[60%]">
+                    <div className="bottom_content sm:w-[90%] lg:w-[60%]">
                         <div className="flex justify-center mt-[70px] invisible	">
                             <input defaultValue={0} min={0} max={100} type="range" className="w-[60%] h-2 bg-gray-200 rounded-lg" />
                         </div>
@@ -124,7 +124,7 @@ export default function FormMusic() {
 
                 </div>
                 <div className="listMusic flex justify-center w-[100%]">
-                    <div className="content py-[40px] w-[60%]">
+                    <div className="content py-[40px] sm:w-[95%] lg:w-[60%]">
                         <div className="trackList flex w-[100%] items-center">
                             <MdOutlineQueueMusic /> Tracks list
                         </div>
@@ -132,7 +132,7 @@ export default function FormMusic() {
                             {data.map((item, index) => (
                                 <div key={index} className={active == index ? "lg:mx-[50px] my-[20px] itemMusic active" : "lg:mx-[50px] my-[20px] itemMusic"} onClick={() => handleClickMusic(data[index], index)}>
                                     <div className="text-[#c77dff] lg:text-[20px] flex justify-between">
-                                        <div className="">{item.name}</div>
+                                        <div className="mr-[10px]">{item.name}</div>
                                         <div className="font-bold">{item.singer}</div>
                                     </div>
                                 </div>
