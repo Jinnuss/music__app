@@ -37,6 +37,12 @@ export default function DataMussic() {
         //     img: '/happiest.jpg'
         // },
         {
+            name: 'Thất tình',
+            link: '/thattinh.mp3',
+            singer: 'Trịnh Đình Quang',
+            img: '/thattinh.jpg'
+        },
+        {
             name: 'Chàng trai bất tử',
             link: '/ChangTraiBatTu-AnVuSino.mp3',
             singer: 'An Vũ- Sino',
