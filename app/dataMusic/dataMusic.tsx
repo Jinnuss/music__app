@@ -149,6 +149,18 @@ export default function DataMussic() {
             link: '/HuaDoiNhungChangToiCover-KieuChi-15016022.mp3',
             singer: 'Kiều Chi',
             img: '/kieuchi.jpg'
+        },
+        {
+            name: 'We dont talk anymore',
+            link: '/wedont.m4a',
+            singer: 'Chalie Puth',
+            img: '/wedont.jpg'
+        },
+        {
+            name: 'Maroon 5',
+            link: '/maroon5.m4a',
+            singer: 'Maroon 5',
+            img: '/maroon5.jpg'
         }
     ];
     return data;
