@@ -157,10 +157,16 @@ export default function DataMussic() {
             img: '/wedont.jpg'
         },
         {
-            name: 'Maroon 5',
-            link: '/maroon5.m4a',
+            name: 'Sugar',
+            link: '/sugar.m4a',
             singer: 'Maroon 5',
             img: '/maroon5.jpg'
+        },
+        {
+            name: 'Solo',
+            link: '/solo.m4a',
+            singer: 'Myles Smith',
+            img: '/solo.jpg'
         }
     ];
     return data;
