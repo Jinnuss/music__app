@@ -37,10 +37,10 @@ export default function DataMussic() {
         //     img: '/happiest.jpg'
         // },
         {
-            name: 'Thất tình',
-            link: '/thattinh.mp3',
-            singer: 'Trịnh Đình Quang',
-            img: '/thattinh.jpg'
+            name: 'Yên bình có quá đắt không',
+            link: '/yenbinhcoquadatkhong.m4a',
+            singer: 'Khiem',
+            img: '/yenbinhcoquadatkhong.jpg'
         },
         {
             name: 'Chàng trai bất tử',
@@ -149,6 +149,12 @@ export default function DataMussic() {
             link: '/HuaDoiNhungChangToiCover-KieuChi-15016022.mp3',
             singer: 'Kiều Chi',
             img: '/kieuchi.jpg'
+        },
+        {
+            name: 'Thất tình',
+            link: '/thattinh.mp3',
+            singer: 'Trịnh Đình Quang',
+            img: '/thattinh.jpg'
         },
         {
             name: 'We dont talk anymore',
