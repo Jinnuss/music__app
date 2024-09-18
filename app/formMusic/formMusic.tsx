@@ -117,13 +117,14 @@ export default function FormMusic() {
                             <IoVolumeHighSharp className="text-[#5a3ec8]" />
                             <input onChange={() => handleChangeVolume(event)} defaultValue={100} min={0} max={100} type="range" className="mx-[10px] lg:w-[10%] h-2 bg-gray-200 rounded-lg" />
                             <div className="text-[#5a3ec8] w-[70px]">
-                                {per} %
+                                <div className="inline mr-[10px]">{per}</div>
+                                <div className="inline">%</div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div className="listMusic flex justify-center w-[100%]">
+                <div className="listMusic flex justify-center w-[100%] mt-[20px]">
                     <div className="content py-[40px] sm:w-[95%] lg:w-[60%]">
                         <div className="trackList flex w-[100%] items-center">
                             <MdOutlineQueueMusic /> Danh sách bài hát
