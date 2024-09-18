@@ -43,6 +43,12 @@ export default function DataMussic() {
             img: '/yenbinhcoquadatkhong.jpg'
         },
         {
+            name: 'Họa Khắc',
+            link: '/hoakhac.m4a',
+            singer: 'Hùng Quân',
+            img: '/hoakhac.png'
+        },
+        {
             name: 'Chàng trai bất tử',
             link: '/ChangTraiBatTu-AnVuSino.mp3',
             singer: 'An Vũ- Sino',
