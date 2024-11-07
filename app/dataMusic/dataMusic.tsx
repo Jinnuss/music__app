@@ -37,6 +37,66 @@ export default function DataMussic() {
         //     img: '/happiest.jpg'
         // },
         {
+            name: 'Anh đã loop trong biềm đau này',
+            link: '/anhdaloop.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Đi ngủ',
+            link: '/dingu.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Khóa cửa',
+            link: '/khoacua.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Đêm mang nỗi nhớ đi đâu',
+            link: '/demmang.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Nhà giam tâm hồn',
+            link: '/nhagiam.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Đêm nay anh lại mơ',
+            link: '/demnayanhmo.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Thiên đường cô đơn',
+            link: '/thienduongcodon.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Say sóng',
+            link: '/saysong.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'IKIGAI',
+            link: '/ikagi.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
+            name: 'Khu vườn tình',
+            link: '/khuvuontinh.m4a',
+            singer: 'Tăng Duy Tân',
+            img: '/duytan.png'
+        },
+        {
             name: 'Yên bình có quá đắt không',
             link: '/yenbinhcoquadatkhong.m4a',
             singer: 'Khiem',
@@ -143,43 +203,43 @@ export default function DataMussic() {
             link: '/sautatca.m4a',
             singer: 'Erik',
             img: '/sautatca.jpg'
-        },
-        {
-            name: 'Anh thôi nhân nhượng',
-            link: '/anhthoinhannhuong.mp3',
-            singer: 'Kiều Chi',
-            img: '/kieuchi.jpg'
-        },
-        {
-            name: 'Hứa đợi nhưng chẳng tới',
-            link: '/HuaDoiNhungChangToiCover-KieuChi-15016022.mp3',
-            singer: 'Kiều Chi',
-            img: '/kieuchi.jpg'
-        },
-        {
-            name: 'Thất tình',
-            link: '/thattinh.mp3',
-            singer: 'Trịnh Đình Quang',
-            img: '/thattinh.jpg'
-        },
-        {
-            name: 'We dont talk anymore',
-            link: '/wedont.m4a',
-            singer: 'Chalie Puth',
-            img: '/wedont.jpg'
-        },
-        {
-            name: 'Sugar',
-            link: '/sugar.m4a',
-            singer: 'Maroon 5',
-            img: '/maroon5.jpg'
-        },
-        {
-            name: 'Solo',
-            link: '/solo.m4a',
-            singer: 'Myles Smith',
-            img: '/solo.jpg'
         }
+        // {
+        //     name: 'Anh thôi nhân nhượng',
+        //     link: '/anhthoinhannhuong.mp3',
+        //     singer: 'Kiều Chi',
+        //     img: '/kieuchi.jpg'
+        // },
+        // {
+        //     name: 'Hứa đợi nhưng chẳng tới',
+        //     link: '/HuaDoiNhungChangToiCover-KieuChi-15016022.mp3',
+        //     singer: 'Kiều Chi',
+        //     img: '/kieuchi.jpg'
+        // },
+        // {
+        //     name: 'Thất tình',
+        //     link: '/thattinh.mp3',
+        //     singer: 'Trịnh Đình Quang',
+        //     img: '/thattinh.jpg'
+        // },
+        // {
+        //     name: 'We dont talk anymore',
+        //     link: '/wedont.m4a',
+        //     singer: 'Chalie Puth',
+        //     img: '/wedont.jpg'
+        // },
+        // {
+        //     name: 'Sugar',
+        //     link: '/sugar.m4a',
+        //     singer: 'Maroon 5',
+        //     img: '/maroon5.jpg'
+        // },
+        // {
+        //     name: 'Solo',
+        //     link: '/solo.m4a',
+        //     singer: 'Myles Smith',
+        //     img: '/solo.jpg'
+        // }
     ];
     return data;
 }
